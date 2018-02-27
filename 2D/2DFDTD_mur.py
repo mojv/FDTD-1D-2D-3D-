@@ -5,6 +5,7 @@ import math
 import matplotlib.animation as animation
 from matplotlib.animation import FuncAnimation
 import os
+import datetime
 
 simulation_time=datetime.datetime.today()
 folder_name = "2DFDTD_mur_{0:%Y%m%d-%H%M%S}".format(simulation_time)
